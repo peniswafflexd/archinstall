@@ -10,7 +10,7 @@ sudo pacman -Syu --noconfirm base-devel xorg xorg-xinit xmonad xmonad-contrib xm
 
 git clone https://aur.archlinux.org/yay-git.git
 
-cd yay-git && makepkg -si 
+cd yay-git && makepkg --noconfirm -si 
 
 cd ../
 
