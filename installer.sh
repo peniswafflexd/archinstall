@@ -8,6 +8,9 @@ USERNAME="peniswaffle"
 
 systemctl start dhcpcd && systemctl enable dhcpcd
 
+# potential packages to install:
+# zsh zsh-completions
+
 pacman -Syu --noconfirm base-devel xorg xorg-xinit xmonad xmonad-contrib xmobar alacritty nitrogen dmenu virtualbox-guest-utils firefox picom pacman-contrib
 
 
