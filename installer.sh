@@ -14,15 +14,15 @@ sudo pacman --noconfirm -Syu base-devel sublime-text xorg xorg-xinit xmonad xmon
 
 git clone https://aur.archlinux.org/yay-git.git
 
-cd yay && makepkg -si 
+cd yay-git && makepkg -si 
 
 cd ../
 
 yay -S --noconfirm nerd-fonts-mononoki
 
-cp .xmonad ~
-cp .config ~
-cp .xinitrc ~
+cp -r .xmonad ~
+cp -r .config ~
+cp -r .xinitrc ~
 cp -r wallpapers ~
 
 nitrogen --set-scaled --random ~/wallpapers
