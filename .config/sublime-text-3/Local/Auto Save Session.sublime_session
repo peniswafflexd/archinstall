@@ -20,23 +20,13 @@
 			"buffers":
 			[
 				{
-					"contents": "C",
+					"file": "/home/peniswaffle/.config/picom/picom.conf",
 					"settings":
 					{
-						"buffer_size": 1,
+						"buffer_size": 3349,
+						"encoding": "UTF-8",
 						"line_ending": "Unix",
-						"name": "C"
-					}
-				},
-				{
-					"contents": "#!/bin/bash\n\n#installer script for xmonad, xmobar, fira-code, fontawesome-5 and sublime text\n# Only Tested on Arch Linux 5.12.11\n\nwget -qO- httpsL//\n\npacman -S --noconfirm yay ttf-fira-code  ",
-					"file": "/home/peniswaffle/install_script.sh",
-					"file_size": -1,
-					"file_write_time": -1,
-					"settings":
-					{
-						"buffer_size": 191,
-						"line_ending": "Unix"
+						"name": "#  ____ _____"
 					}
 				}
 			],
@@ -76,13 +66,14 @@
 			},
 			"file_history":
 			[
+				"/home/peniswaffle/install_script.sh",
 				"/home/peniswaffle/xmonad.hs",
 				"/home/peniswaffle/.config/picom/picom.conf",
 				"/home/peniswaffle/conky_bar"
 			],
 			"find":
 			{
-				"height": 23.0
+				"height": 24.0
 			},
 			"find_in_files":
 			{
@@ -114,57 +105,32 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
+							"file": "/home/peniswaffle/.config/picom/picom.conf",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1,
+								"buffer_size": 3349,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1,
-										1
+										3349,
+										3349
 									]
 								],
 								"settings":
 								{
-									"auto_name": "C",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/peniswaffle/install_script.sh",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 191,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										148,
-										148
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+									"auto_name": "#  ____ _____",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -178,7 +144,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 23.0
+				"height": 24.0
 			},
 			"input":
 			{
@@ -212,11 +178,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,0,1440,900,1440,900",
+			"position": "0,0,0,0,0,16,16,624,882,1440,900",
 			"project": "",
 			"replace":
 			{
-				"height": 42.0
+				"height": 44.0
 			},
 			"save_all_on_build": true,
 			"select_file":
