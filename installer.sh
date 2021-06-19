@@ -8,11 +8,11 @@ USERNAME="peniswaffle"
 
 systemctl start dhcpcd && systemctl enable dhcpcd
 
-pacman -Syu --noconfirm base-devel xorg xorg-xinit xmonad xmonad-contrib xmobar alacritty nitrogen dmenu virtualbox-guest-utils firefox picom checkupdates usermod
+pacman -Syu --noconfirm base-devel xorg xorg-xinit xmonad xmonad-contrib xmobar alacritty nitrogen dmenu virtualbox-guest-utils firefox picom pacman-contrib
 
 git clone https://aur.archlinux.org/yay-git.git
 
-usermod -a -G $USERNAME nobody
+usermod -a -G sudo nobody
 
 cd yay-git && sudo -u nobody makepkg --noconfirm -si
 
