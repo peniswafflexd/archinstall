@@ -25,6 +25,11 @@ cp -r .config /home/$USERNAME/
 cp -r .xinitrc /home/$USERNAME/
 cp -r wallpapers /home/$USERNAME/
 
+chgrp -R $USERNAME *
+chown -R $USERNAME *
+chgrp -R $USERNAME .*
+chown -R $USERNAME .*
+
 if [ ! -d "/home/$USERNAME/.local" ] 
 then
     mkdir /home/$USERNAME/.local
@@ -35,8 +40,7 @@ then
 fi
 echo "cupd=$(checkupdates | wc -l) \n echo \"$cupd updates\"" > /home/$USERNAME/.local/bin/pacupdate
 
-
-nitrogen --set-scaled --random ~/wallpapers
+nitrogen --set-scaled --random /home/$USERNAME/wallpapers
 
 
 
