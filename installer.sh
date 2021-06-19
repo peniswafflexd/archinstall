@@ -11,7 +11,7 @@ systemctl start dhcpcd && systemctl enable dhcpcd
 # potential packages to install:
 # 
 
-pacman -Syu --noconfirm base-devel xorg xorg-xinit xmonad xmonad-contrib xmobar alacritty nitrogen dmenu virtualbox-guest-utils firefox picom pacman-contrib zsh zsh-completions
+pacman -Syu --noconfirm base-devel xorg xorg-xinit xmonad xmonad-contrib xmobar alacritty nitrogen dmenu virtualbox-guest-utils firefox picom pacman-contrib zsh zsh-completions ttf-fira-code
 
 
 if [ ! pacman -Qi yay || ! pacman -Qi yay-git ]
@@ -27,11 +27,14 @@ cp -r .xmonad /home/$USERNAME/
 cp -r .config /home/$USERNAME/
 cp -r .xinitrc /home/$USERNAME/
 cp -r wallpapers /home/$USERNAME/
+cp .zshrc /home/$USERNAME/
 
 chgrp -R $USERNAME *
 chown -R $USERNAME *
 chgrp -R $USERNAME .*
 chown -R $USERNAME .*
+
+su $USERNAME
 
 if [ ! -d "/home/$USERNAME/.local" ] 
 then
