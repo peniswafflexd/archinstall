@@ -6,11 +6,7 @@
 
 systemctl start dhcpcd && systemctl enable dhcpcd
 
-curl -O https://download.sublimetext.com/sublimehq-pub.gpg && sudo pacman-key --add sublimehq-pub.gpg && sudo pacman-key --lsign-key 8A8F901A && rm sublimehq-pub.gpg
-
-echo -e "\n[sublime-text]\nServer = https://download.sublimetext.com/arch/stable/x86_64" | sudo tee -a /etc/pacman.conf
-
-sudo pacman -Syu base-devel sublime-text xorg xorg-xinit xmonad xmonad-contrib xmobar git alacritty nitrogen dmenu virtualbox-guest-utils firefox 
+sudo pacman -Syu --noconfirm base-devel xorg xorg-xinit xmonad xmonad-contrib xmobar alacritty nitrogen dmenu virtualbox-guest-utils firefox picom
 
 git clone https://aur.archlinux.org/yay-git.git
 
@@ -18,12 +14,15 @@ cd yay-git && makepkg -si
 
 cd ../
 
-yay -S --noconfirm nerd-fonts-mononoki
+yay -S --noconfirm nerd-fonts-mononoki otf-font-awesome-5-free sublime-text
 
 cp -r .xmonad ~
 cp -r .config ~
 cp -r .xinitrc ~
 cp -r wallpapers ~
+
+echo "cupd=$(checkupdates | wc -l) \n echo \"$cupd updates\"" >> ~/.local/bin/pacupdate
+
 
 nitrogen --set-scaled --random ~/wallpapers
 
