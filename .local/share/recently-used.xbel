@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/peniswaffle/wallpapers" added="2021-06-18T15:24:30.385557Z" modified="2021-06-18T15:24:30.385563Z" visited="2021-06-18T15:24:30.385558Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nitrogen" exec="&apos;nitrogen %u&apos;" modified="2021-06-18T15:24:30.385560Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///xmonad.hs" added="2021-06-18T16:12:33.695699Z" modified="2021-06-18T16:12:33.695733Z" visited="2021-06-18T16:12:33.695700Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-haskell"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;subl %u&apos;" modified="2021-06-18T16:12:33.695730Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peniswaffle/xmonad.hs" added="2021-06-18T16:12:47.501810Z" modified="2021-06-18T16:12:47.501817Z" visited="2021-06-18T16:12:47.501811Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-haskell"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;subl %u&apos;" modified="2021-06-18T16:12:47.501813Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peniswaffle/.conky.cfg" added="2021-06-18T16:13:31.786439Z" modified="2021-06-18T16:13:31.786445Z" visited="2021-06-18T16:13:31.786440Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;subl %u&apos;" modified="2021-06-18T16:13:31.786442Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peniswaffle/conky_bar.cfg" added="2021-06-18T16:14:08.012728Z" modified="2021-06-18T16:14:08.012735Z" visited="2021-06-18T16:14:08.012729Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;subl %u&apos;" modified="2021-06-18T16:14:08.012732Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peniswaffle/conky_bar" added="2021-06-18T16:14:29.709370Z" modified="2021-06-18T16:14:29.709376Z" visited="2021-06-18T16:14:29.709371Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;subl %u&apos;" modified="2021-06-18T16:14:29.709374Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peniswaffle/Mac_Folder" added="2021-06-19T03:48:16.135240Z" modified="2021-06-19T03:48:16.135245Z" visited="2021-06-19T03:48:16.135240Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nitrogen" exec="&apos;nitrogen %u&apos;" modified="2021-06-19T03:48:16.135242Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peniswaffle/.config/picom/picom.conf" added="2021-06-19T14:01:55.699652Z" modified="2021-06-19T14:36:14.524289Z" visited="2021-06-19T14:01:55.699653Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;subl %u&apos;" modified="2021-06-19T14:36:14.524286Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peniswaffle/.xmonad/xmonad.hs" added="2021-06-19T14:22:11.421167Z" modified="2021-06-19T14:22:11.421173Z" visited="2021-06-19T14:22:11.421168Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-haskell"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;subl %u&apos;" modified="2021-06-19T14:22:11.421170Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/peniswaffle/.config/xmobar/xmobarrc" added="2021-06-19T14:40:26.815060Z" modified="2021-06-19T14:40:26.815066Z" visited="2021-06-19T14:40:26.815061Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;subl %u&apos;" modified="2021-06-19T14:40:26.815063Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

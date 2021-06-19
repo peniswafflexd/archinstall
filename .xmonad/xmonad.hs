@@ -238,7 +238,7 @@ myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
 
 --Makes setting the spacingRaw simpler to write. The spacingRaw module adds a configurable amount of space around windows.
 mySpacing :: Integer -> l a -> XMonad.Layout.LayoutModifier.ModifiedLayout Spacing l a
-mySpacing i = spacingRaw False (Border i i i i) True (Border i i i i) True
+mySpacing i = spacingRaw False (Border (i + 10) i i i) True (Border (i+10) i i i) True
 
 -- You can specify and transform your layouts by modifying these values.
 -- If you change layout bindings be sure to use 'mod-shift-space' after
@@ -383,10 +383,10 @@ main = do
               { ppOutput = \x -> hPutStrLn xmproc x                           -- xmobar on monitor 1
                               -- >> hPutStrLn xmproc1 x                       -- xmobar on monitor 2
                               -- >> hPutStrLn xmproc2 x                       -- xmobar on monitor 3
-              , ppCurrent = xmobarColor "#98be65" "" . wrap "[" "]"           -- Current workspace
-              , ppVisible = xmobarColor "#98be65" ""                          -- Visible but not current workspace
-              , ppHidden = xmobarColor "#82AAFF" "" . wrap "*" ""             -- Hidden workspaces
-              , ppHiddenNoWindows = xmobarColor "#c792ea" ""                  -- Hidden workspaces (no windows)
+              , ppCurrent = xmobarColor "#46d9ff" "" . wrap "[" "]"           -- Current workspace
+              , ppVisible = xmobarColor "#46d9ff" ""                          -- Visible but not current workspace
+              , ppHidden = xmobarColor "#c678dd" "" . wrap "*" ""             -- Hidden workspaces
+              , ppHiddenNoWindows = xmobarColor "#51afef" ""                  -- Hidden workspaces (no windows)
               , ppTitle = xmobarColor "#b3afc2" "" . shorten 60               -- Title of active window
               , ppSep =  "<fc=#666666> <fn=1>|</fn> </fc>"                    -- Separator character
               , ppUrgent = xmobarColor "#C45500" "" . wrap "!" "!"            -- Urgent workspace

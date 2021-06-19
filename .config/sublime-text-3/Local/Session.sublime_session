@@ -19,6 +19,33 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/peniswaffle/.xmonad/xmonad.hs",
+					"settings":
+					{
+						"buffer_size": 18539,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/peniswaffle/.config/xmobar/xmobarrc",
+					"settings":
+					{
+						"buffer_size": 3213,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/peniswaffle/.config/picom/picom.conf",
+					"settings":
+					{
+						"buffer_size": 3443,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -31,6 +58,14 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"hask",
+						"Set Syntax: Haskell"
+					],
+					[
+						"pyth",
+						"Set Syntax: Python"
+					],
 					[
 						"haske",
 						"Set Syntax: Haskell"
@@ -56,14 +91,14 @@
 			},
 			"file_history":
 			[
+				"/home/peniswaffle/.config/picom/picom.conf",
 				"/home/peniswaffle/install_script.sh",
 				"/home/peniswaffle/xmonad.hs",
-				"/home/peniswaffle/.config/picom/picom.conf",
 				"/home/peniswaffle/conky_bar"
 			],
 			"find":
 			{
-				"height": 23.0
+				"height": 38.0
 			},
 			"find_in_files":
 			{
@@ -77,6 +112,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"ff6c6b",
 					"conky"
 				],
 				"highlight": true,
@@ -95,14 +131,106 @@
 			"groups":
 			[
 				{
+					"selected": 1,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/peniswaffle/.xmonad/xmonad.hs",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 18539,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										14876,
+										14876
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Haskell/Haskell.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 5506.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/peniswaffle/.config/xmobar/xmobarrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3213,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										651,
+										651
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Haskell/Haskell.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true,
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/peniswaffle/.config/picom/picom.conf",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3443,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3062,
+										3062
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1096.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 23.0
+				"height": 24.0
 			},
 			"input":
 			{
@@ -136,11 +264,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,16,16,1422,882,1440,900",
+			"position": "0,0,0,0,0,16,36,1422,882,1440,900",
 			"project": "",
 			"replace":
 			{
-				"height": 42.0
+				"height": 44.0
 			},
 			"save_all_on_build": true,
 			"select_file":
