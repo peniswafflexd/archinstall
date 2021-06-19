@@ -10,17 +10,21 @@ sudo pacman -Syu --noconfirm base-devel xorg xorg-xinit xmonad xmonad-contrib xm
 
 git clone https://aur.archlinux.org/yay-git.git
 
-cd yay-git && makepkg --noconfirm -si 
+cd yay-git && su nobody -c "makepkg --noconfirm -si"
 
 cd ../
 
-yay -S --noconfirm nerd-fonts-mononoki otf-font-awesome-5-free sublime-text
+su nobody -c "yay -S --noconfirm nerd-fonts-mononoki otf-font-awesome-5-free sublime-text"
 
 cp -r .xmonad ~
 cp -r .config ~
 cp -r .xinitrc ~
 cp -r wallpapers ~
 
+if [ ! -d "~/.local/bin/" ] 
+then
+    mkdir ~/.local/bin/
+fi
 echo "cupd=$(checkupdates | wc -l) \n echo \"$cupd updates\"" >> ~/.local/bin/pacupdate
 
 
