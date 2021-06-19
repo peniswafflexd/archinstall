@@ -10,12 +10,13 @@ systemctl start dhcpcd && systemctl enable dhcpcd
 
 pacman -Syu --noconfirm base-devel xorg xorg-xinit xmonad xmonad-contrib xmobar alacritty nitrogen dmenu virtualbox-guest-utils firefox picom pacman-contrib
 
-sudo -u $USERNAME git clone https://aur.archlinux.org/yay-git.git
 
-
-cd yay-git && sudo -u $USERNAME makepkg --noconfirm -si
-
-cd ../
+if [ ! pacman -Qi yay || ! pacman -Qi yay-git ]
+then 
+	sudo -u $USERNAME git clone https://aur.archlinux.org/yay-git.git
+	cd yay-git && sudo -u $USERNAME makepkg --noconfirm -si
+	cd ../
+fi
 
 sudo -u $USERNAME yay -S --noconfirm nerd-fonts-mononoki otf-font-awesome-5-free sublime-text
 
