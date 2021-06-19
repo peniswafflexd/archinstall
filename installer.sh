@@ -12,13 +12,12 @@ pacman -Syu --noconfirm base-devel xorg xorg-xinit xmonad xmonad-contrib xmobar 
 
 git clone https://aur.archlinux.org/yay-git.git
 
-usermod -a -G sudo nobody
 
-cd yay-git && sudo -u nobody makepkg --noconfirm -si
+cd yay-git && sudo -u $USERNAME makepkg --noconfirm -si
 
 cd ../
 
-sudo -u nobody yay -S --noconfirm nerd-fonts-mononoki otf-font-awesome-5-free sublime-text
+sudo -u $USERNAME yay -S --noconfirm nerd-fonts-mononoki otf-font-awesome-5-free sublime-text
 
 cp -r .xmonad /home/$USERNAME/
 cp -r .config /home/$USERNAME/
